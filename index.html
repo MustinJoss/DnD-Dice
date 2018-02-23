@@ -2,38 +2,18 @@
 <html lang="en">
     <head>
         <title>DnD Dice Roller</title>
-        <style type="text/css">
-            div.dice{
-                width:32px;
-                background: #F5F5F5;
-                border:#999 1px solid;
-                padding:10px;
-                font-size:24px;
-                text-align:center;
-                margin:5px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>   
+        <h2>Choose which die to roll...</h2>
         <h2 id="status" style="clear:left;">...</h2>
-        <button onclick="totalUp(d6, 4)">Total</button>
-        <form>
-            <input type="radio" name="advDis" value="norm" checked> Normal<br>
-            <input type="radio" name="advDis" value="adv"> Advantage<br>
-            <input type="radio" name="advDis" value="dis"> Disadvantage<br>
-        </form>
-        <div class="dice">100</div>
-        <button onclick="rollDice(d100)">Roll d100</button>
-        <div class="dice">20</div>
-        <button onclick="rollDice(d20)">Roll d20</button>
-        <div class="dice">10</div>
-        <button onclick="rollDice(d10)">Roll d10</button>
-        <div class="dice">8</div>
-        <button onclick="rollDice(d8)">Roll d8</button>
-        <div class="dice">6</div>
-        <button onclick="rollDice(d6)">Roll d6</button>
-        <div class="dice">4</div>
-        <button onclick="rollDice(d4)">Roll d4</button>
+            <div class="dice" onclick="rollDice(d100, 1)">00</div>
+            <div class="dice" onclick="rollDice(d20, 1)">20</div>
+            <div class="dice" onclick="rollDice(d12, 1)">12</div>
+            <div class="dice" onclick="rollDice(d10, 1)">10</div>
+            <div class="dice" onclick="rollDice(d8, 1)">8</div>
+            <div class="dice" onclick="rollDice(d6, 1)">6</div>
+            <div class="dice" onclick="rollDice(d4, 1)">4</div>
         <script src="script.js">
         </script>
     </body>
