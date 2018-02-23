@@ -1,0 +1,19 @@
+body {
+    background: whitesmoke;
+    background-size: cover;
+}
+
+.dice {
+    width: 32px;
+    background: lightsteelblue;
+    border: darkblue 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 8px;
+    box-shadow: 0 0 2px 1px black;
+    cursor: pointer;
+    outline: none;
+    float: left;
+}
