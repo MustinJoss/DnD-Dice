@@ -1,1 +1,1 @@
-# dnd_dice
+# DnD-Dice
